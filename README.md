@@ -2,11 +2,7 @@
 
 Screenshot API is a FastAPI-based service that allows you to capture screenshots of websites programmatically. It offers various customization options, including format, delay, viewport size, full-page capture, mobile simulation, user-agent customization, and the ability to inject custom JavaScript. It's also available using Docker.
 
-**Request URL**
-
-```http://127.0.0.1:8000/screenshot?url=http://127.0.0.1:8000/docs&format=png&width=1920&height=1080&full_page=true&mobile=false&delay=2```
-
-**Server response**
+**Live Demo**: https://screenshot-api.ggn92.dev
 
 ![Screenshot](https://github.com/ggn1992/screenshot-api/blob/main/screenshot.png?raw=true)
 
