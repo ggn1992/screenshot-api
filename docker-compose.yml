@@ -1,0 +1,11 @@
+services:
+  screenshot-api:
+    container_name: screenshot_api
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - .:/app
+    restart: always
